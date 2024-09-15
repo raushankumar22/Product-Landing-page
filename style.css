@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0px;
+    }
+    body{
+    box-sizing: border-box;
+      background: rgb(245, 245, 245);
+    }
+    header{
+      font-family:  cursive;
+      display: fixed;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      position: fixed;
+      width: 100%;
+      min-height: 8%;
+    }
+    a{
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+    }
+    #about{
+      margin-right: 50px;
+    }
+    .nav-link :hover {
+      color:  red;
+      background: rgb(240, 240, 240);
+      transform: scale(2);
+    }
+    #about-us-text{
+        text-align: justify;
+        line-height: 30px;
+        font-weight: 200;
+    }
+    
+    #div-about-us{
+      background-color: #eee;
+      display: grid;
+      grid-template-columns: 40% 47%;
+      grid-column-gap: 10em;
+      padding: 80px;
+    }
+    #container {
+      position: relative; /*this cover the nav bar*/
+      text-align: center;
+      color: white;
+    }
+    #women-text{
+      position: absolute;
+      font-size: 70px;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #women-img{
+      object-fit: cover;
+      object-position: 0 28%;
+      width: 100%;
+      height: 180px;
+    }
+    #pricing{
+      border: 1px solid #000;
+      border-radius: 3px;
+    }
+    
+    .clothes li{
+      float: left;
+      display: inline;
+      font-family: "heiti sc";
+      text-align: center;
+      width: 25%;
+      margin: 30px 5px 10px 80px;
+    }
+    h3 {
+      background-color: lightgray;
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .img-resize{
+      height: 200px;
+      width: 200px;
+    }
+    .btn {
+      border: 1;
+      padding: 10px 15px;
+      margin: 0 auto;
+      background-color: #ddd;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    input[type="submit"] {
+      font-size: 1em;
+      background: #FFCC99;
+      cursor: pointer;
+      border: 0;
+      border-radius: 2px;
+      height: 40px;
+      text-transform: uppercase;
+    }
+    .form-container {
+      background: rgba(0, 0, 0, 0.4);
+      margin: 1.5em 1em;
+      padding: 1.5em 1em;
+      display: grid;
+      border-radius: 2px;
+      grid-template-columns: 70% auto;
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas:
+        "label label"
+        "submit button"
+        "info info";
+    }
+    input[type="email"] {
+      width: 95
+      padding: 0.5em;
+      border: none;
+      font-size: inherit;
+    }
+    #lb-email {
+      display: block;
+      grid-area: label;
+      margin-bottom: 0.8em;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    #join-us {
+      margin-bottom: 100px;
+      margin-top: 500px;
+      color: black;
+      background-color: #ae984a;
+      background-image: url("https://cdn.shopify.com/s/files/1/0026/6941/2441/products/the-joyful-home-company-wallpaper-mural-marble-wallpaper-mural-4691229835353.jpg?v=1584889849");
+      background-repeat: repeat;
+      border-radius: 2px;
+    }
+    
+    .title-form {
+      margin: 1em 0.6em;
+    }
+    
+    @media (max-width: 600px){
+      header{
+        flex-wrap: wrap;
+      }
+    }
+    #header-img{
+      width: 10%;
+      height: 100%;
+      position: relative;
+      margin-left: 30px;
+    }
+    #nav-bar{
+      padding: 0;
+      position: relative;
+      margin-right: 100px;
+    
+    }
+    #nav-bar li{
+      display: inline;
+      padding-left: 37px;
+    }
+    @media (max-width: 650px) {
+        nav{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+      }
+    }
+      footer {
+      margin-top: 30px;
+      background-color: #ddd;
+      padding: 20px;
+    }
+    footer > ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    footer > ul > li {
+      padding: 0 10px;
+    }
+    
+    footer > span {
+      margin-top: 5px;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.9em;
+      color: #444;
+    }
+    
+    
